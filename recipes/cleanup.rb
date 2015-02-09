@@ -8,7 +8,7 @@ dnsimple = chef_vault_item('secrets', 'dnsimple')['data']
     username dnsimple['username']
     password dnsimple['password']
     domain dnsimple['domain']
-    action :delete
+    action :destroy
   end
 
 end
